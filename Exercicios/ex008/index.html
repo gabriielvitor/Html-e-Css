@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase tem um <b>termo em negrito</b> usando a tag b (não semântica) </p>
+    <p>Nessa frase, temos um <strong>termo em destaque</strong> usando a tag STRONG</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em Itálico</i> usando a tag I (não semântica) </p>
+    <p>Nesta frase temos um <em>termo em ênfase</em> usando a tag EM</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: rgb(0, 255, 234);">um texto marcado</mark> usando a tag MARK</p>
+    <p>E no outro parágrafo ,temos <mark>outro texto marcado</mark> no final</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e <small>um pequeno</small> nesse parágrafo</p>
+
+    <h2>Texto excluido</h2>
+    <p>Podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemoa marcar um <ins>texto como inserido</ins> para indicar que ele deve ser lido, e considerado</p>
+
+    <h2>Texto Sobescrito</h2>
+    <p>Para inseriri coisas do tipo x<sup>20</sup>+3</p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+    <h2>Códigos fontes / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre><code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR)
+    print('Fim do programa')        
+    </code></pre>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando</p>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q> </p>
+    
+    <h2>Citações Completas</h2>
+    <p>Segundo tal pessoa, no seu livro de HTML:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=pt-BR&gbpv=1&dq=HTML&pg=PT6&printsec=frontcover">
+        Castro, Elizabeth. HTML for the World Wide Web. Berkeley: Peachpit Press, 2003.
+    </blockquote>
+
+    <h2>Textos Invertidos</h2>
+    <p><bdo dir="rtl">Estou aprendendo a cria coisas em HTML</bdo></p>
+    <p><bdo dir="ltr">Estou aprendendo a cria coisas em HTML</bdo></p>
+</body>
+</html>
