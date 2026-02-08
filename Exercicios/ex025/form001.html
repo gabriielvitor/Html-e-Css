@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.java" method="post" autocomplete="off">
+        <!-- Name - PHP 
+            ID - Javascript-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"> </p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"> </p>
+        <p><input type="submit" value="Enviar"> </p>
+    </form>
+
+    <!-- Label é importanta para fazer a relação entre um e outro -->
+    <!-- o For depende da linguagem -->
+     <!-- Autocomplet = off para não aparecer caixa de sugestões -->
+</body>
+</html>
+
+<!-- 
+    Padrão método GET - nome, pesagem, etc.. dados não sensiveis / 3000 Bytes
+    Não padrão POST - senha, cartão, etc... daods sensiveis  
+-->
+
+<!-- Aprender sobre HTTPS -->
