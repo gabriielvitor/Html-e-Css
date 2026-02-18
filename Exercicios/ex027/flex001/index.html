@@ -14,10 +14,34 @@
         div.item {
             text-align: center;
             background-color: lightblue;
-            border: 1px solid black;
+            border: 1px dotted black;
 
             flex: auto;
         }
+
+        /*
+            flex-direction
+            1 - row (esquerda para direita) [linha deitada]
+                eixos:
+                    main-axis - principal (main-start) (main-end) [esquerda para direita]
+                    cross-axis - transversal (cross-start) (cross-end) [cima para baixo]
+
+            2 - row-reverse (direita para esquerda)
+                eixos:
+                    main-axis - principal (main-end) (main-start) [direita para esquerda]
+                    cross-axis - transversal (cross-start) (cross-end) [cima para baixo]
+
+            3 - column (cima para baixo) [coluna]
+                eixos:
+                    main-axis - principal (main-start) (main-end) [cima para baixo]
+                    cross-axis - transversal (cross-start) (cross-end) [esquerda para direita]
+
+            4 - column-reverse (baixo para cima)
+                eixos:
+                    main-axis - principal (main-end) (main-start) [baixo para cima]
+                    cross-axis - transversal (cross-start) (cross-end) [esquerda para direita]
+        */
+
 
     </style>
 </head>
