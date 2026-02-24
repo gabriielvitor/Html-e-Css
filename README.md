@@ -29,3 +29,4 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
 <a href="https://gabriielvitor.github.io/Html-e-Css/Exercicios/ex024/index.html"> Executar o exercício 024 </a> <br>
 <a href="https://gabriielvitor.github.io/Html-e-Css/Exercicios/ex025/index.html"> Executar o exercício 025 </a> <br>
 <a href="https://gabriielvitor.github.io/Html-e-Css/Exercicios/ex026/index.html"> Executar o exercício 026 </a> <br>
+<a href="https://gabriielvitor.github.io/Html-e-Css/Exercicios/ex027/index.html"> Executar o exercício 027 </a> <br>
