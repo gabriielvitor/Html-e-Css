@@ -36,9 +36,6 @@ section.flex-content {
     flex-flow: column nowrap;
 }
 
-section > article {
-    
-}
 
 article.text-media {
     display: flex;
