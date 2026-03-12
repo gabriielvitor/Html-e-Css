@@ -19,16 +19,40 @@ header {
     background-color: rgb(122, 121, 121);
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /*main*/
+    align-items: center; /*cross*/
 }
 
 header > h1 {
     border: 1px dotted black;
-    margin: 5px;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px dotted black;
-    margin: 10px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 main {
