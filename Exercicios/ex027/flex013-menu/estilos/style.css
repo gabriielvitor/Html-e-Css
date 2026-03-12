@@ -22,29 +22,32 @@ header {
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between; /*main*/
-    align-items: center; /*cross*/
+    justify-content: space-between; /* main  esquerda para a direita */
+    align-items: center; /* cross  cima para baixo */
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 1px 1px 2px black;
 }
 
 header > nav {
-    border: 1px dotted black;
-    
+    /*border: 1px dotted black;*/
     display: flex;
+
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Esquerda para a direita */
 }
 
 header > nav > a {
     background-color: black;
     color: white;
+
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
+
     text-decoration: none;
     text-align: center;
 }
